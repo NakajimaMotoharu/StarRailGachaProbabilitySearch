@@ -10,7 +10,7 @@ public class Data {
 	private final int cSize = 10, lSize = 8, max = 2000;
 
 	public Data(){
-		Path path = Paths.get("AllData.txt");
+		Path path = Paths.get("AllData70S.txt");
 		List<String>str;
 
 		try {

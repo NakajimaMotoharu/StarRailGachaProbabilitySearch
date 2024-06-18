@@ -16,7 +16,7 @@ public class Main {
 			String[] tmp = in.split(",");
 			double p = data.search(Integer.parseInt(tmp[0]), Integer.parseInt(tmp[1]), Integer.parseInt(tmp[2]));
 			if (!Double.isNaN(p)){
-				System.out.printf("入手確率は%f%%だよ！\n", p * 100d);
+				System.out.printf("入手確率は%.2f%%だよ！\n", p * 100d);
 			} else {
 				System.out.println("入力がおかしいよ");
 			}
